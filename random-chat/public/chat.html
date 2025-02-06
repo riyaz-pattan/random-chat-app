@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Random Chat - Chat</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="chat-container">
-    <div id="chat-window" class="chat-window">
-      <!-- Chat messages will appear here -->
-    </div>
+    <div id="chat-window" class="chat-window"></div>
     <form id="chat-form">
-      <input id="chat-input" autocomplete="off" placeholder="Type your message..." />
+      <input id="chat-input" autocomplete="off" placeholder="Type your message...">
       <button type="submit">Send</button>
     </form>
     <div class="note">
@@ -20,9 +18,7 @@
     </div>
   </div>
 
-  <!-- Socket.io -->
   <script src="/socket.io/socket.io.js"></script>
-  <!-- Client-side JS -->
   <script src="client.js"></script>
 </body>
 </html>
